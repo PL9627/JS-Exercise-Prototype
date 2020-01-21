@@ -36,7 +36,7 @@ describe('Instances of Airplane', () => {
   })
 })
 
-describe('Instances of Person', () => {
+xdescribe('Instances of Person', () => {
   let neo
   const foods = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   beforeEach(() => {
@@ -78,7 +78,7 @@ describe('Instances of Person', () => {
   })
 })
 
-describe('Instances of Car', () => {
+xdescribe('Instances of Car', () => {
   let batmobile
   beforeEach(() => {
     batmobile = new Car('BatMobile', 20)
@@ -130,7 +130,7 @@ describe('Instances of Car', () => {
   })
 })
 
-describe('Instances of Baby', () => {
+xdescribe('Instances of Baby', () => {
   let baby
   beforeEach(() => {
     baby = new Baby('Lucy', 5, 'trains')
