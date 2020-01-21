@@ -108,10 +108,11 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. The value of "this" in the global scope is the console or window object.
+  2. When the function is called by a preceding dot, "this" is the object before the dot.
+  3. Creating and returning an object's specific instance in a 
+    constructor function is what "this" is used for.
+  4. Specifically defining "this" occurs when using the call or apply method in Javascript.
 */
 
 
